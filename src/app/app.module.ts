@@ -99,6 +99,10 @@ import { ReportesComponent } from './reportes/reportes.component';
       {
         path: 'reportes',
         component: ReportesComponent
+      },
+      {
+        path: '**',
+        redirectTo: ''
       }
     ]),
   ],
