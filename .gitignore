@@ -1,1 +1,10 @@
 node_modules
+dist/matdash/3rdpartylicenses.txt
+dist/matdash/assets/amplogo.jpg
+dist/matdash/assets/logo.png
+dist/matdash/favicon.ico
+dist/matdash/index.html
+dist/matdash/main.fa370a6fb8ab18dc2799.js
+dist/matdash/polyfills.1a76b195c32e157513ff.js
+dist/matdash/runtime.a66f828dca56eeb90e02.js
+dist/matdash/styles.10447d4f746ce452eb82.css

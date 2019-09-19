@@ -19,8 +19,8 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
 import { TablelistComponent } from './tablelist/tablelist.component';
 import { TypoComponent } from './typo/typo.component';
 import { IconsComponent } from './icons/icons.component';
-import { MapsComponent } from './maps/maps.component';
-import { NotificationComponent } from './notification/notification.component';
+// import { MapsComponent } from './maps/maps.component';
+// import { NotificationComponent } from './notification/notification.component';
 import { AgmCoreModule } from '@agm/core';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { LoginComponent } from './login/login.component';
@@ -37,8 +37,8 @@ import { ReportesComponent } from './reportes/reportes.component';
       TablelistComponent,
       TypoComponent,
       IconsComponent,
-      MapsComponent,
-      NotificationComponent,
+      // MapsComponent,
+      // NotificationComponent,
       UsuarioCursoComponent,
       ReportesComponent
    ],
@@ -88,10 +88,10 @@ import { ReportesComponent } from './reportes/reportes.component';
       //   path: 'maps',
       //   component: MapsComponent
       // },
-      {
-        path: 'notify',
-        component: NotificationComponent
-      },
+      // {
+        // path: 'notify',
+        // component: NotificationComponent
+      // },
       {
         path: 'usuario-curso',
         component: UsuarioCursoComponent
