@@ -6,18 +6,18 @@
   fixedInViewport="true"
   [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
   [mode]="(isHandset$ | async) ? 'over' : 'side'" >
-    <mat-toolbar class="white"><img  src="assets/logo.png" width="80%" style="margin:auto"></mat-toolbar>
+    <mat-toolbar class="white"><img  src="../../assets/images/logo.png" width="80%" style="margin:auto"></mat-toolbar>
     <mat-nav-list>
-      <a class="sidenavelement" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" routerLink="/" mat-list-item href="#"><mat-icon>Login</mat-icon> &nbsp; Login</a>
+      <a class="sidenavelement" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" routerLink="login" mat-list-item href="#"><mat-icon>Login</mat-icon> &nbsp; Login</a>
       <a class="sidenavelement" routerLinkActive="active-link" routerLink="user" mat-list-item href="#"><mat-icon>person</mat-icon> &nbsp; Usuario</a>
       <a class="sidenavelement" routerLinkActive="active-link" routerLink="table" mat-list-item href="#"><mat-icon>table_chart</mat-icon> &nbsp; Cursos</a>
       <a class="sidenavelement" routerLinkActive="active-link" routerLink="usuario-curso" mat-list-item href="#"><mat-icon>text_fields</mat-icon> &nbsp; Usuarios - Cursos</a>
       <a class="sidenavelement" routerLinkActive="active-link" routerLink="catalogos" mat-list-item href="#"><mat-icon>library_books</mat-icon> &nbsp; Catálogos</a>
-
+      <a class="sidenavelement" routerLinkActive="active-link" routerLink="reportes" mat-list-item href="#"><mat-icon>description</mat-icon> &nbsp; Reportes</a>
+    
      <!--- <a class="sidenavelement" routerLinkActive="active-link" routerLink="/icons" mat-list-item href="#"><mat-icon>insert_emoticon</mat-icon> &nbsp; Icons</a>
       <a class="sidenavelement" routerLinkActive="active-link" routerLink="/maps" mat-list-item href="#"><mat-icon>map</mat-icon> &nbsp; Maps</a>
      -->
-     <a class="sidenavelement" routerLinkActive="active-link" routerLink="reportes" mat-list-item href="#"><mat-icon>description</mat-icon> &nbsp; Reportes</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

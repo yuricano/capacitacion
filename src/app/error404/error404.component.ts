@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./error404.component.css']
 })
 export class Error404Component implements OnInit {
+  small = true;
 
   constructor() { }
 
   ngOnInit() {
+    this.small = true;
   }
-
 }
+

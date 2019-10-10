@@ -29,6 +29,9 @@ import { UsuarioCursoComponent } from './usuario-curso/usuario-curso.component';
 import { ReportesComponent } from './reportes/reportes.component';
 import { CatalogosComponent } from './catalogos/catalogos.component';
 import { Error404Component } from './error404/error404.component';
+import { EmpleadosComponent } from './catalogos/empleados/empleados.component';
+import { CursosComponent } from './catalogos/cursos/cursos.component';
+import { ProveedoresComponent } from './catalogos/proveedores/proveedores.component';
 
 @NgModule({
    declarations: [
@@ -42,7 +45,10 @@ import { Error404Component } from './error404/error404.component';
       UsuarioCursoComponent,
       ReportesComponent,
       CatalogosComponent,
-      Error404Component
+      Error404Component,
+      EmpleadosComponent,
+      CursosComponent,
+      ProveedoresComponent
    ],
    imports: [
     BrowserModule,
@@ -91,6 +97,18 @@ import { Error404Component } from './error404/error404.component';
       {
         path: 'reportes',
         component: ReportesComponent
+      },
+      {
+        path: 'catalogos/empleados',
+        component: EmpleadosComponent
+      },
+      {
+        path: 'catalogos/cursos',
+        component: CursosComponent
+      },
+      {
+        path: 'catalogos/proveedores',
+        component: ProveedoresComponent
       },
       {
         path: '**',
