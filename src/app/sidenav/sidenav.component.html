@@ -6,7 +6,7 @@
   fixedInViewport="true"
   [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
   [mode]="(isHandset$ | async) ? 'over' : 'side'" >
-    <mat-toolbar class="white"><img  src="../../assets/images/logo.png" width="80%" style="margin:auto"></mat-toolbar>
+    <mat-toolbar class="white"><img  src="assets/images/logo.png" width="80%" style="margin:auto"></mat-toolbar>
     <mat-nav-list>
       <a class="sidenavelement" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" routerLink="login" mat-list-item href="#"><mat-icon>Login</mat-icon> &nbsp; Login</a>
       <a class="sidenavelement" routerLinkActive="active-link" routerLink="user" mat-list-item href="#"><mat-icon>person</mat-icon> &nbsp; Usuario</a>
